@@ -1,0 +1,185 @@
+ * { 
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    
+background-color: white;
+color: gray;
+    font-family: 'lato',sans-serif;
+    font-size: 20px;
+    font-weight: 300;               
+    text-rendering: optimizeLegibility;
+    
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),#000),url(images/4.jpg);  
+    height: 100vh;  
+     background-size: cover;   
+    background-position: center; 
+    
+}
+
+h1{
+    
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white;
+    font-weight:300;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    font-size: 250%;   
+
+    
+    
+}
+
+h2{
+    
+    text-align: center;
+    font-weight: 300;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    font-size: 250%;}
+
+h2:after{
+    display: block;
+    content: " ";
+    background-color: black;
+    height: 2px;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+h3{
+    
+    word-spacing: 4px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 110%;
+    
+}
+    
+
+.paragraph{
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.textbox-hero {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%,-50%)
+
+}
+
+.btn1:link,
+.btn1:visited{
+    display: inline-block;
+    padding: 10px  30px;
+    background-color: black;
+    border-radius: 200px;
+    text-decoration: none;
+    font-weight: 300;
+    border: 1px solid black;
+    color: white;
+    margin-right: 15px;
+    
+}
+
+
+
+.btn1:hover,
+.btn1:active
+{
+  
+    background-color: #212020;
+    border-color:  black;
+    
+}
+
+
+
+.centrerow {
+    
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+
+/*todo*/
+
+.strike{
+    color: gray;
+    text-decoration: line-through;
+}
+
+.th1{
+   margin: 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: normal;
+    background-color: black;
+}
+input{
+    width: 100%;
+    padding: 5px 10px;
+} 
+
+li{
+    
+    line-height: 30px;
+    height: 30px;
+}
+ul{
+    padding-left: 0px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li span{
+    background-color: red;
+    margin-right: 10px;                   
+    width: 0;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    transition: 0.2s linear;
+    opacity: 0;
+    color: white;
+
+    
+}
+li:hover span{
+    width: 40px;
+    opacity: 1.0;
+}
+.fa-plus {
+    float: right;
+}
+.shadow
+{
+   box-shadow: 0 0 6px rgba(0,0,0, 0.8);
+}
+
+
+.shadow2
+{ 
+       box-shadow: 0 0 3px rgba(0,0,0, 0.2);
+
+    
+}
